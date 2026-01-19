@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Personal AI</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="app">
+    <div class="header">
+        🤖 My Personal Nokar
+    </div>
+
+    <div id="chat-box" class="chat-box"></div>
+
+    <div class="input-area">
+        <input 
+            type="text" 
+            id="user-input" 
+            placeholder="Message My AI..."
+            onkeydown="handleEnter(event)"
+        >
+        <button onclick="sendMessage()">Send</button>
+    </div>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
